@@ -1,0 +1,108 @@
+#!/usr/bin/env python3
+"""
+attic-recover — recover casks Homebrew already *removed*.
+
+`attic-sync` handles casks still in homebrew/cask (disabled but not yet deleted).
+This handles the next stage: casks removed from homebrew/cask entirely (Homebrew
+deletes them ~1 year after disabling). It walks the repo's git history, finds
+deleted cask files that carried a `disable!` / `deprecate!` stanza before removal
+(i.e. policy-killed, not merely renamed), recovers the last good version, strips
+the stanza, and adds it to the tap — unless the token is already present.
+
+Definitions only, same as attic-sync. Idempotent.
+
+Usage:
+  bin/attic-recover                         # clone history, recover
+  bin/attic-recover --source /path/hb-hist  # use existing (treeless) checkout
+  bin/attic-recover --since 2023-01-01      # how far back to look (default ~2.5y)
+  bin/attic-recover --dry-run
+"""
+import argparse, os, re, subprocess, sys, tempfile, shutil
+from collections import Counter
+
+STANZA = re.compile(r'^[ \t]*(disable!|deprecate!)', re.MULTILINE)
+LINE = re.compile(r'^[ \t]*(disable!|deprecate!)')
+REASON = re.compile(r'because:\s*:(\w+)')
+
+def git(repo, args):
+    return subprocess.run(["git", "-C", repo] + args, capture_output=True, text=True)
+
+def strip_stanza(text):
+    lines, out, i = text.split('\n'), [], 0
+    while i < len(lines):
+        line = lines[i]
+        if LINE.match(line):
+            while line.rstrip().endswith(',') and i + 1 < len(lines):
+                i += 1; line = lines[i]
+            i += 1; continue
+        out.append(line); i += 1
+    return '\n'.join(out)
+
+def main():
+    ap = argparse.ArgumentParser()
+    ap.add_argument("--source")
+    ap.add_argument("--since", default="2.5 years ago")
+    ap.add_argument("--dry-run", action="store_true")
+    args = ap.parse_args()
+
+    tap = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+    casks_out = os.path.join(tap, "Casks")
+
+    tmp = None
+    repo = args.source
+    if not repo:
+        tmp = repo = tempfile.mkdtemp(prefix="hb-hist-")
+        print(f"cloning homebrew/cask history (treeless) -> {repo}", flush=True)
+        subprocess.run(["git", "clone", "--filter=blob:none", "--no-checkout",
+                        "--quiet", "https://github.com/Homebrew/homebrew-cask", repo], check=True)
+
+    # already-present tokens (from attic-sync) — skip these
+    have = set()
+    for root, _, files in os.walk(casks_out):
+        for fn in files:
+            if fn.endswith(".rb"): have.add(fn[:-3])
+
+    # deleted cask files, newest-first; keep the most recent deletion per path
+    r = git(repo, ["log", f"--since={args.since}", "--diff-filter=D",
+                   "--name-only", "--format=COMMIT %H", "--", "Casks"])
+    commit, seen_path, deletions = None, set(), []
+    for line in r.stdout.splitlines():
+        if line.startswith("COMMIT "):
+            commit = line[7:].strip()
+        elif line.startswith("Casks/") and line.endswith(".rb"):
+            if line not in seen_path:
+                seen_path.add(line); deletions.append((commit, line))
+
+    recovered, reasons, checked = 0, Counter(), 0
+    for commit, path in deletions:
+        token = os.path.basename(path)[:-3]
+        if token in have:
+            continue
+        checked += 1
+        show = git(repo, ["show", f"{commit}^:{path}"])
+        if show.returncode != 0 or not show.stdout:
+            continue
+        text = show.stdout
+        if not STANZA.search(text):
+            continue  # not policy-killed (renamed/obsolete) — skip
+        m = REASON.search(text); reasons[m.group(1) if m else "?"] += 1
+        have.add(token)
+        if not args.dry_run:
+            # shard: reuse the historical path's dir, else first char
+            parts = path.split("/")
+            shard = parts[1] if len(parts) == 3 else token[0].lower()
+            dd = os.path.join(casks_out, shard); os.makedirs(dd, exist_ok=True)
+            open(os.path.join(dd, token + ".rb"), "w", encoding="utf-8").write(strip_stanza(text))
+        recovered += 1
+
+    print(f"\nscanned {len(deletions)} deleted casks since {args.since}; "
+          f"checked {checked} not-already-present; recovered {recovered}"
+          + (" (dry-run)" if args.dry_run else ""))
+    for r_, n in reasons.most_common():
+        print(f"  {n:5}  {r_}")
+
+    if tmp:
+        shutil.rmtree(tmp, ignore_errors=True)
+
+if __name__ == "__main__":
+    main()

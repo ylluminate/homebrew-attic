@@ -1,0 +1,41 @@
+name: recover
+
+# Recover casks Homebrew has *removed* (deleted ~1yr after disabling).
+# Heavier than sync (walks full git history), so it runs monthly, not weekly.
+
+on:
+  schedule:
+    - cron: "43 7 1 * *"   # monthly, 1st of the month 07:43 UTC
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+concurrency:
+  group: attic-sync         # shared with sync.yml — never push concurrently
+  cancel-in-progress: false
+
+jobs:
+  recover:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.x"
+
+      - name: Recover removed casks from history
+        run: python3 bin/attic-recover
+
+      - name: Commit and push changes
+        run: |
+          git config user.name "attic-recover[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          if [ -n "$(git status --porcelain)" ]; then
+            git add -A
+            git commit -m "recover $(date -u +%F): casks removed from homebrew/cask"
+            git push
+          else
+            echo "no changes"
+          fi
