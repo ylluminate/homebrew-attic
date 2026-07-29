@@ -23,11 +23,24 @@ to install this one.
 
 ## What's inside
 
-- **1057 cask definitions** carried over from `homebrew/cask`, each with its
-  `disable!` / `deprecate!` stanza stripped. Nothing else is changed.
-- **`bin/attic-sync`** — the engine that produces them. Re-runnable and idempotent;
-  run it on a schedule to keep pace with Homebrew's ongoing deprecations.
-- **`MANIFEST.tsv`** — every rescued cask with its original disable date and reason.
+- **1226 cask definitions**, each with its `disable!` / `deprecate!` stanza stripped
+  and nothing else changed:
+  - **1057** still in `homebrew/cask` (disabled/deprecated but not yet removed), and
+  - **169** already removed from `homebrew/cask`, recovered from its git history.
+- **`bin/attic-sync`** — rescues casks currently in `homebrew/cask`. Idempotent.
+- **`bin/attic-recover`** — recovers casks Homebrew has already deleted (walks git
+  history for cask files that carried a disable stanza before removal).
+- **`MANIFEST.tsv`** — rescued casks with their original disable date and reason.
+
+## Staying current
+
+Two GitHub Actions keep this in step with Homebrew automatically — no machine of
+yours needs to be on:
+
+- **`sync`** — weekly. Re-runs `attic-sync`, commits anything newly disabled.
+- **`recover`** — monthly. Re-runs `attic-recover` for anything newly removed.
+
+Both also run on demand (`gh workflow run sync.yml` / `recover.yml`).
 
 ## Notes
 
