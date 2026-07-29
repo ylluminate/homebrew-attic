@@ -1,0 +1,21 @@
+# macOS
+.DS_Store
+._*
+
+# private notes / local tooling markers
+.notes/
+.gg/
+
+# dev tooling artifacts
+.uce/
+.uce*.json
+.uce.yaml
+.ai/
+.claude/
+.codex/
+.gemini/
+
+# editor
+*.swp
+*.swo
+*~

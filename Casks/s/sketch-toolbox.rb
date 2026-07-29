@@ -1,0 +1,18 @@
+cask "sketch-toolbox" do
+  version "0.5.1"
+  sha256 :no_check
+
+  url "http://sketchtoolbox.com/Sketch%20Toolbox.zip"
+  name "Sketch Toolbox"
+  desc "Plugin manager for Sketch"
+  homepage "http://sketchtoolbox.com/"
+
+
+  depends_on :macos
+
+  app "Sketch Toolbox.app"
+
+  caveats do
+    requires_rosetta
+  end
+end
