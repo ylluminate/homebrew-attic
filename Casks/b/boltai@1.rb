@@ -7,11 +7,6 @@ cask "boltai@1" do
   desc "AI chat client"
   homepage "https://boltai.com/"
 
-  livecheck do
-    url "https://boltai.com/sparkle/appcast.xml"
-    strategy :sparkle, &:short_version
-  end
-
 
   auto_updates true
   depends_on macos: :monterey

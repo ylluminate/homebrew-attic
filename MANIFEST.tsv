@@ -234,7 +234,6 @@ dupeguru	d	2026-09-01	fails_gatekeeper_check
 dust3d	d	2026-09-01	fails_gatekeeper_check
 dvdstyler	d	2026-09-01	fails_gatekeeper_check
 dyn-updater	d	2026-09-01	fails_gatekeeper_check
-dynalist	d	2025-07-29	unmaintained
 ealeksandrov-cd-to	e	2025-10-14	unmaintained
 easyeda	e	2026-09-01	fails_gatekeeper_check
 editaro	e	2026-09-01	fails_gatekeeper_check
@@ -294,8 +293,6 @@ font-ibm-plex	font-i	2025-09-05
 font-iosevka-comfy	font-i	2026-02-22	discontinued
 font-lxgw-fasmartgothic	font-l	2025-11-24	discontinued
 font-lxgw-heartserif	font-l	2025-11-24	discontinued
-font-moralerspace-hw-nf	font-m	2025-07-29	discontinued
-font-moralerspace-nf	font-m	2025-07-29	discontinued
 font-office-code-pro	font-o	2025-08-18	no_longer_available
 font-zed-mono	font-z	2026-04-04	discontinued
 font-zed-sans	font-z	2026-04-04	discontinued
@@ -613,7 +610,6 @@ opensesame	o	2026-09-01	fails_gatekeeper_check
 opensim	o	2026-03-01	unmaintained
 opentoonz	o	2026-09-01	fails_gatekeeper_check
 openvisualtraceroute	o	2026-09-01	fails_gatekeeper_check
-opera-neon	o	2025-07-29	unmaintained
 opera@beta	o	2026-02-05	discontinued
 operadriver	o	2026-09-01	fails_gatekeeper_check
 oracle-jdk@17	o	2025-10-29	no_longer_meets_criteria
