@@ -2,11 +2,14 @@ cask "tidelift" do
   arch arm: "_arm"
   os macos: "darwin", linux: "linux"
 
-  version "1.16.70"
-  sha256 arm:          "eab2563ba05a8df4bc3071775a1a5539a4c678febd1e973cf95240d0f7031668",
-         intel:        "9381a4defd300fc80d819e9dd0cbcac4fc44033c82d9fb782ecee5e85d834e93",
-         arm64_linux:  "6d39efd9980585efa8c5939dfd8fb903910f5251137080e042fa91dec30bdf46",
-         x86_64_linux: "644c166b4a4cab980e1ac72c8dab0ec5abc0937bc0c85db192a4e8defab40ce7"
+  version "1.16.73"
+  sha256 arm:          "93e72779292bb76bd12592479651fdec19ad549e3b8b7444508190ec47193742",
+         intel:        "5c9553d70a6ea03a330054d6d5aff0137f939c0d7a4e0b573d491becb3d0d9a6",
+         arm64_linux:  "269edee59879d216e09a14e4a4d319e6c31c017858e7c6a4e3497e3c4d16d0a1",
+         x86_64_linux: "730fc189f316845d6c56846ad34331abe4c1631c0fb05647d204df660299de16"
+
+  on_macos do
+  end
 
   url "https://download.tidelift.com/cli/#{version}/#{os}#{arch}/tidelift"
   name "Tidelift CLI"
@@ -17,7 +20,6 @@ cask "tidelift" do
     url "https://download.tidelift.com/cli/index.html"
     regex(%r{href=.*?/cli/(\d+(?:\.\d+)+)/#{os}#{arch}/tidelift}i)
   end
-
 
   binary "tidelift"
 

@@ -125,7 +125,6 @@ camed	c	2026-09-01	fails_gatekeeper_check
 candybar	c	2026-09-01	fails_gatekeeper_check
 caprine	c	2026-09-01	fails_gatekeeper_check
 capslocknodelay	c	2026-09-01	fails_gatekeeper_check
-captin	c	2026-11-30	discontinued
 ccstudio	c	2025-09-09	no_longer_available
 cctalk	c	2026-09-01	fails_gatekeeper_check
 celestialteapot-runway	c	2026-05-03	no_longer_available
@@ -138,7 +137,6 @@ cheatsheet	c	2025-11-09	discontinued
 checkra1n	c	2026-09-01	fails_gatekeeper_check
 chessx	c	2026-09-01	fails_gatekeeper_check
 chiaki	c	2026-09-01	fails_gatekeeper_check
-chirp	c	2025-08-05	
 chromedriver	c	2026-09-01	fails_gatekeeper_check
 chromedriver@beta	c	2026-09-01	fails_gatekeeper_check
 chromium	c	2026-09-01	fails_gatekeeper_check
@@ -261,10 +259,8 @@ fake	f	2025-10-11	unmaintained
 fantasy-grounds	f	2026-03-16	discontinued
 far2l	f	2026-09-01	fails_gatekeeper_check
 fauxpas	f	2025-10-12	unmaintained
-faxbot	f	2025-08-03	no_longer_available
 fedora-media-writer	f	2026-09-01	fails_gatekeeper_check
 fertigt-slate	f	2026-09-01	fails_gatekeeper_check
-fig	f	2025-08-03	discontinued
 fightcade	f	2026-09-01	fails_gatekeeper_check
 figtree	f	2026-03-02	unmaintained
 filemon	f	2026-09-01	fails_gatekeeper_check
@@ -288,6 +284,7 @@ font-andron-scriptor-web	font-a	2026-01-24	no_longer_available
 font-brill	font-b	2025-11-01	unreachable
 font-gentium-basic	font-g	2026-06-25	discontinued
 font-gentium-book-basic	font-g	2026-06-25	discontinued
+font-golos-ui	font-g	2026-08-07	
 font-humor-sans	font-h	2025-12-23	no_longer_meets_criteria
 font-ibm-plex	font-i	2025-09-05	
 font-iosevka-comfy	font-i	2026-02-22	discontinued
@@ -615,7 +612,6 @@ operadriver	o	2026-09-01	fails_gatekeeper_check
 oracle-jdk@17	o	2025-10-29	no_longer_meets_criteria
 orangedrangon-android-messages	o	2026-09-01	fails_gatekeeper_check
 orca	o	2026-09-01	fails_gatekeeper_check
-origin	o	2025-08-06	no_longer_available
 osirix-quicklook	o	2025-11-15	unmaintained
 osmc	o	2026-09-01	fails_gatekeeper_check
 oso-cloud	o	2026-09-01	fails_gatekeeper_check
@@ -662,7 +658,7 @@ poi	p	2026-09-01	fails_gatekeeper_check
 pokemon-reborn	p	2026-09-01	fails_gatekeeper_check
 pokemon-showdown	p	2026-06-08	discontinued
 pokerth	p	2026-09-01	fails_gatekeeper_check
-polkadot-js	p	2025-08-03	discontinued
+polkadot-js	p	2026-08-04	discontinued
 pololu-avr-programmer-v2	p	2026-09-01	fails_gatekeeper_check
 polyphone	p	2026-09-01	fails_gatekeeper_check
 pomotroid	p	2026-09-01	fails_gatekeeper_check
@@ -775,10 +771,9 @@ seamonkey	s	2026-09-01	fails_gatekeeper_check
 secure-pipes	s	2026-09-01	fails_gatekeeper_check
 sekey	s	2026-05-27	unmaintained
 semulov	s	2026-09-01	fails_gatekeeper_check
-send-to-kindle	s	2026-06-01	unreachable
 sengi	s	2026-09-01	fails_gatekeeper_check
 sequential	s	2025-10-11	unmaintained
-serene	s	2025-08-02	unmaintained
+serene	s	2026-08-04	unmaintained
 servo	s	2026-09-01	fails_gatekeeper_check
 servpane	s	2026-01-05	unmaintained
 shadowsocksx-ng	s	2026-09-01	fails_gatekeeper_check
@@ -944,7 +939,6 @@ ueli	u	2026-09-01	fails_gatekeeper_check
 ultimate	u	2026-09-01	fails_gatekeeper_check
 ultimate-control	u	2025-11-01	unmaintained
 ultimate-vocal-remover	u	2026-09-01	fails_gatekeeper_check
-ultracopier	u	2025-08-04	discontinued
 ultrastardeluxe	u	2026-09-01	fails_gatekeeper_check
 uncolored	u	2025-10-12	unmaintained
 uncrustifyx	u	2025-09-09	unmaintained
@@ -1019,7 +1013,6 @@ wireframe-sketcher	w	2026-09-01	fails_gatekeeper_check
 wombat	w	2026-09-01	fails_gatekeeper_check
 worldpainter	w	2026-09-01	fails_gatekeeper_check
 wormhole	w	2026-09-01	fails_gatekeeper_check
-wowmatrix	w	2025-08-05	unmaintained
 write	w	2026-09-01	fails_gatekeeper_check
 writer	w	2025-09-06	unmaintained
 writerside	w	2025-08-16	discontinued

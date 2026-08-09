@@ -1,9 +1,9 @@
 cask "exifcleaner" do
   arch arm: "-arm64"
 
-  version "4.0.0"
-  sha256 arm:   "f8837c155fe3cd826ef9f82b87d3936780bbafbcfc2b1902cc2a594a26037c1d",
-         intel: "307ec159d9faa41cc4d7c45523130f92821a2ccf30d9b3faf2a35ae10db34666"
+  version "4.2.0"
+  sha256 arm:   "f42ddb013957deec192f77cf424cd96103480d3c05468f4eb93685f88caf667d",
+         intel: "34157501759e02d456fff033a66f5e89c80bda10c4acc5e32bf7704782dbc855"
 
   url "https://github.com/szTheory/exifcleaner/releases/download/v#{version}/ExifCleaner-#{version}#{arch}.dmg",
       verified: "github.com/szTheory/exifcleaner/"
@@ -17,12 +17,14 @@ cask "exifcleaner" do
   end
 
 
-  depends_on macos: :big_sur
+  depends_on macos: :monterey
 
   app "ExifCleaner.app"
 
   zap trash: [
+    "~/Library/Application Support/com.apple.sharedfilelist/com.apple.LSSharedFileList.ApplicationRecentDocuments/com.exifcleaner.sfl*",
     "~/Library/Application Support/ExifCleaner",
+    "~/Library/Preferences/com.exifcleaner.plist",
     "~/Library/Saved Application State/com.exifcleaner.savedState",
   ]
 end

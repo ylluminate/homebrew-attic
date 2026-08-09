@@ -23,5 +23,6 @@ cask "chromium-gost" do
   zap trash: [
     "~/Library/Application Support/Chromium",
     "~/Library/Caches/Chromium",
+    "~/Library/Preferences/ru.cryptopro.chromium-gost.plist",
   ]
 end

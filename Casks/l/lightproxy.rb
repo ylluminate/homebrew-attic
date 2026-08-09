@@ -14,7 +14,7 @@ cask "lightproxy" do
   app "LightProxy.app"
 
   uninstall_postflight_steps do
-    delete_keychain_certificate "LightProxy"
+    delete_keychain_certificates "LightProxy"
   end
 
   caveats do
