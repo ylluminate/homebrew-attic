@@ -1,12 +1,13 @@
 cask "librewolf" do
   arch arm: "arm64", intel: "x86_64"
-  os macos: "macos-#{arch}-package.dmg", linux: "linux-#{arch}-appimage.AppImage"
+  os macos: "macos", linux: "linux"
+  url_end = on_system_conditional macos: "package.dmg", linux: "appimage.AppImage"
 
-  version "153.0.3,1"
-  sha256 arm:          "cf28a2c610cd8be0f698b52c1fb6e530d17be09fb43aba798e762d8423b35950",
-         intel:        "031050b89658c380d91f2658bfae7ff7f1297be4fabc240f45f15ef506d2aa75",
-         arm64_linux:  "5a20e87564950dc6edcceba9969206664d4df24f7811c4ef545b6cd217fa0807",
-         x86_64_linux: "85da8f1bca931c4f1a2cea9140dd846da9cf2868afe085f556b0e5d637e8467d"
+  version "153.0.4,1"
+  sha256 arm:          "4971d23a262a7414d6d7de2bc0449832a7e39cb341fc3f9b7388fe181fbf24a1",
+         intel:        "7d856314effa69e6955f1db4b2e94209b30b9b3757f324499db5e3acef0ae609",
+         arm64_linux:  "eb14f8b37b454f88da8bb194717608ca1354bb4ef822824f44ca3216ba0b2731",
+         x86_64_linux: "c1b836058ce9a626cb450644a5c1cedd94a6bf61df6c88c42cb114a782a44059"
 
   on_macos do
 
@@ -28,7 +29,7 @@ cask "librewolf" do
               target: "LibreWolf.AppImage"
   end
 
-  url "https://codeberg.org/api/packages/librewolf/generic/librewolf/#{version.tr(",", "-")}/librewolf-#{version.tr(",", "-")}-#{os}"
+  url "https://librewolf.dev/api/packages/librewolf/generic/librewolf/#{version.tr(",", "-")}/librewolf-#{version.tr(",", "-")}-#{os}-#{arch}-#{url_end}"
   name "LibreWolf"
   desc "Web browser"
   homepage "https://librewolf.net/"
@@ -37,7 +38,7 @@ cask "librewolf" do
   # corresponding release is created, so we check the "latest" release instead
   # of the Git tags.
   livecheck do
-    url "https://codeberg.org/api/v1/repos/librewolf/bsys6/releases/latest"
+    url "https://librewolf.dev/api/v1/repos/librewolf/bsys6/releases/latest"
     regex(/^v?(\d+(?:[.-]\d+)+)$/i)
     strategy :json do |json, regex|
       json["tag_name"]&.[](regex, 1)&.tr("-", ",")

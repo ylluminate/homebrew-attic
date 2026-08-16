@@ -1,5 +1,4 @@
 token	shard	disable_date	reason
-1clipboard	1	2025-08-12	unmaintained
 1kc-razer	1	2026-09-01	fails_gatekeeper_check
 1password-cli@1	1	2026-06-11	unmaintained
 3dgenceslicer	3	2026-09-01	fails_gatekeeper_check
@@ -561,6 +560,7 @@ nault	n	2026-09-01	fails_gatekeeper_check
 navicat-data-modeler-essentials	n	2026-02-23	discontinued
 ncar-ncl	n	2026-01-27	no_longer_available
 netdownloadhelpercoapp	n	2026-05-02	discontinued
+netxms-console	n	2026-09-01	fails_gatekeeper_check
 nextcloud-vfs	n	2026-04-01	discontinued
 nfov	n	2025-09-09	unmaintained
 no-ip-duc	n	2026-04-01	unmaintained
@@ -587,7 +587,6 @@ octomouse	o	2025-09-09	unmaintained
 old-school-runescape	o	2025-12-25	discontinued
 olive	o	2026-09-01	fails_gatekeeper_check
 olympus	o	2026-09-01	fails_gatekeeper_check
-omegat	o	2026-09-01	fails_gatekeeper_check
 omnidb	o	2025-10-15	unmaintained
 openbci	o	2026-09-01	fails_gatekeeper_check
 openboardview	o	2026-09-01	fails_gatekeeper_check
@@ -753,7 +752,6 @@ rolisteam	r	2026-09-01	fails_gatekeeper_check
 routeconverter	r	2026-09-01	fails_gatekeeper_check
 rq	r	2026-09-01	fails_gatekeeper_check
 rsyncosx	r	2025-08-26	discontinued
-rubymotion	r	2025-08-11	unmaintained
 ryver	r	2026-09-01	fails_gatekeeper_check
 safeincloud-password-manager	s	2026-03-15	moved_to_mas
 salesforce-cli	s	2026-09-01	fails_gatekeeper_check
@@ -777,7 +775,6 @@ serene	s	2026-08-04	unmaintained
 servo	s	2026-09-01	fails_gatekeeper_check
 servpane	s	2026-01-05	unmaintained
 shadowsocksx-ng	s	2026-09-01	fails_gatekeeper_check
-shell360	s	2026-09-01	fails_gatekeeper_check
 shiba	s	2025-11-16	unmaintained
 shiori	s	2025-10-12	unmaintained
 shrinkit	s	2025-10-11	unmaintained
@@ -807,7 +804,6 @@ sonic-robo-blast-2	s	2026-09-01	fails_gatekeeper_check
 sonic-robo-blast-2-kart	s	2026-09-01	fails_gatekeeper_check
 sonixd	s	2025-08-30	discontinued
 sonoair	s	2025-09-09	unmaintained
-soundboosterlite	s	2025-08-11	unmaintained
 soundflower	s	2025-11-16	unmaintained
 space-saver	s	2026-09-01	fails_gatekeeper_check
 spaceid	s	2026-09-01	fails_gatekeeper_check
