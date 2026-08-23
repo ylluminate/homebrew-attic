@@ -41,7 +41,7 @@ apple-juice	a	2026-09-01	fails_gatekeeper_check
 apptivate	a	2025-12-23	no_longer_meets_criteria
 apptrap	a	2025-11-02	unmaintained
 aptible	a	2026-09-01	fails_gatekeeper_check
-aqua-app	a	2025-08-16	discontinued
+aqua-app	a	2026-08-20	discontinued
 archi	a	2025-11-18	
 archy	a	2026-09-01	fails_gatekeeper_check
 arctype	a	2025-11-30	discontinued
@@ -150,7 +150,6 @@ cisco-proximity	c	2026-05-18	discontinued
 ckan-app	c	2026-09-01	fails_gatekeeper_check
 cleartext	c	2025-10-12	discontinued
 clementine	c	2025-12-01	discontinued
-clickhouse	c	2026-09-01	fails_gatekeeper_check
 cljstyle	c	2026-09-01	fails_gatekeeper_check
 clock-bar	c	2026-09-01	fails_gatekeeper_check
 clover-configurator	c	2026-09-01	fails_gatekeeper_check
@@ -166,7 +165,6 @@ codux	c	2025-10-25	unmaintained
 coffitivity-offline	c	2026-04-30	unmaintained
 coinomi-wallet	c	2026-05-27	moved_to_mas
 comictagger	c	2026-09-01	fails_gatekeeper_check
-comma-chameleon	c	2025-08-19	discontinued
 companion@beta	c	2025-09-15	unreachable
 composercat	c	2025-10-12	unmaintained
 conferences	c	2026-09-01	fails_gatekeeper_check
@@ -289,7 +287,6 @@ font-ibm-plex	font-i	2025-09-05
 font-iosevka-comfy	font-i	2026-02-22	discontinued
 font-lxgw-fasmartgothic	font-l	2025-11-24	discontinued
 font-lxgw-heartserif	font-l	2025-11-24	discontinued
-font-office-code-pro	font-o	2025-08-18	no_longer_available
 font-zed-mono	font-z	2026-04-04	discontinued
 font-zed-sans	font-z	2026-04-04	discontinued
 fontforge-app	f	2026-09-01	fails_gatekeeper_check
@@ -415,7 +412,6 @@ jewelrybox	j	2025-10-12	unmaintained
 jgrennison-openttd	j	2026-09-01	fails_gatekeeper_check
 jlutil	j	2025-11-17	unmaintained
 jmc	j	2025-11-10	unmaintained
-joshjon-nocturnal	j	2025-08-22	discontinued
 jpadilla-rabbitmq	j	2026-04-16	unmaintained
 jpadilla-redis	j	2026-04-16	unmaintained
 jpc-qlcolorcode	j	2025-09-22	no_longer_meets_criteria
@@ -704,7 +700,6 @@ qlprettypatch	q	2025-09-22	no_longer_meets_criteria
 qlstephen	q	2025-09-22	no_longer_meets_criteria
 qlswift	q	2025-09-22	no_longer_meets_criteria
 qlzipinfo	q	2025-09-22	no_longer_meets_criteria
-qmk-toolbox	q	2026-09-01	fails_gatekeeper_check
 qmoji	q	2026-09-01	fails_gatekeeper_check
 qownnotes	q	2026-09-01	fails_gatekeeper_check
 qth	q	2026-02-24	moved_to_mas
@@ -844,7 +839,6 @@ superslicer	s	2026-09-01	fails_gatekeeper_check
 supersync	s	2025-09-09	unmaintained
 surfeasy-vpn	s	2026-01-05	discontinued
 surge-synthesizer	s	2026-03-02	discontinued
-suspicious-package@preview	s	2025-08-18	discontinued
 swiftybeaver	s	2025-10-12	unmaintained
 swimat	s	2026-09-01	fails_gatekeeper_check
 switchkey	s	2026-09-01	fails_gatekeeper_check
@@ -905,7 +899,6 @@ tomighty	t	2025-09-09	unmaintained
 topaz-gigapixel-ai	t	2025-09-16	discontinued
 topaz-photo-ai	t	2025-09-16	discontinued
 topaz-video-ai	t	2025-09-16	discontinued
-topcat	t	2026-09-01	fails_gatekeeper_check
 toptracker	t	2026-04-01	unmaintained
 torrent-file-editor	t	2026-09-01	fails_gatekeeper_check
 tortoisehg	t	2026-09-01	fails_gatekeeper_check
@@ -916,6 +909,7 @@ transmission-remote-gui	t	2026-09-01	fails_gatekeeper_check
 transmission@nightly	t	2026-09-01	fails_gatekeeper_check
 treesheets	t	2026-09-01	fails_gatekeeper_check
 tribler	t	2026-09-01	fails_gatekeeper_check
+tritium	t	2026-09-01	fails_gatekeeper_check
 trojanx	t	2025-08-30	unmaintained
 trolcommander	t	2025-10-27	unmaintained
 tsh	t	2025-11-18	unmaintained
@@ -1011,13 +1005,10 @@ worldpainter	w	2026-09-01	fails_gatekeeper_check
 wormhole	w	2026-09-01	fails_gatekeeper_check
 write	w	2026-09-01	fails_gatekeeper_check
 writer	w	2025-09-06	unmaintained
-writerside	w	2025-08-16	discontinued
+writerside	w	2026-08-20	discontinued
 x-moto	x	2026-09-01	fails_gatekeeper_check
 x2goclient	x	2026-09-01	fails_gatekeeper_check
 xact	x	2025-12-23	no_longer_meets_criteria
-xamarin-android	x	2025-08-20	discontinued
-xamarin-ios	x	2025-08-20	discontinued
-xamarin-mac	x	2025-08-20	discontinued
 xaos	x	2026-09-01	fails_gatekeeper_check
 xcodeclangformat	x	2026-09-01	fails_gatekeeper_check
 xit	x	2026-09-01	fails_gatekeeper_check
