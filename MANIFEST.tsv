@@ -40,7 +40,6 @@ appium-inspector	a	2026-09-01	fails_gatekeeper_check
 apple-juice	a	2026-09-01	fails_gatekeeper_check
 apptivate	a	2025-12-23	no_longer_meets_criteria
 apptrap	a	2025-11-02	unmaintained
-aptible	a	2026-09-01	fails_gatekeeper_check
 aqua-app	a	2026-08-20	discontinued
 archi	a	2025-11-18	
 archy	a	2026-09-01	fails_gatekeeper_check
@@ -157,7 +156,6 @@ clover-configurator	c	2026-09-01	fails_gatekeeper_check
 cmd-eikana	c	2026-09-01	fails_gatekeeper_check
 cmdtap	c	2025-10-14	unmaintained
 cncjs	c	2026-09-01	fails_gatekeeper_check
-coccinellida	c	2025-09-02	unmaintained
 cockatrice	c	2026-09-01	fails_gatekeeper_check
 codelite	c	2026-09-01	fails_gatekeeper_check
 codeship-jet	c	2026-04-04	no_longer_available
@@ -171,7 +169,6 @@ composercat	c	2025-10-12	unmaintained
 conferences	c	2026-09-01	fails_gatekeeper_check
 container-ps	c	2026-09-01	fails_gatekeeper_check
 contour	c	2026-09-01	fails_gatekeeper_check
-convert3dgui	c	2025-09-02	unmaintained
 cool-retro-term	c	2026-09-01	fails_gatekeeper_check
 coolterm	c	2026-09-01	fails_gatekeeper_check
 copyq	c	2026-09-01	fails_gatekeeper_check
@@ -180,14 +177,11 @@ core-data-editor	c	2025-10-11	unmaintained
 cornercal	c	2025-11-01	unmaintained
 corona-tracker	c	2026-11-30	discontinued
 couleurs	c	2026-04-01	unmaintained
-cr	c	2025-09-02	unmaintained
 craft-agents	c	2026-06-12	discontinued
 crunch-app	c	2026-09-01	fails_gatekeeper_check
 crypter	c	2025-10-27	unmaintained
 cryptr	c	2025-10-04	unmaintained
-cuda-z	c	2025-09-02	unmaintained
 cumulus	c	2026-04-30	unmaintained
-cutesdr	c	2025-09-02	unmaintained
 darktable	d	2026-09-01	fails_gatekeeper_check
 darwindumper	d	2026-09-01	fails_gatekeeper_check
 dataspell	d	2026-09-01	discontinued
@@ -283,7 +277,6 @@ font-gentium-basic	font-g	2026-06-25	discontinued
 font-gentium-book-basic	font-g	2026-06-25	discontinued
 font-golos-ui	font-g	2026-08-07	
 font-humor-sans	font-h	2025-12-23	no_longer_meets_criteria
-font-ibm-plex	font-i	2025-09-05	
 font-iosevka-comfy	font-i	2026-02-22	discontinued
 font-lxgw-fasmartgothic	font-l	2025-11-24	discontinued
 font-lxgw-heartserif	font-l	2025-11-24	discontinued
@@ -295,7 +288,6 @@ forkgram	f	2026-09-01	fails_gatekeeper_check
 fpc-laz	f	2026-09-01	fails_gatekeeper_check
 fpc-src-laz	f	2026-09-01	fails_gatekeeper_check
 freecol	f	2026-09-01	fails_gatekeeper_check
-freemind	f	2025-09-02	unmaintained
 freeorion	f	2026-09-01	fails_gatekeeper_check
 freetube	f	2026-09-01	fails_gatekeeper_check
 fstream	f	2025-11-01	unmaintained
@@ -528,13 +520,12 @@ modelio	m	2026-09-01	fails_gatekeeper_check
 modmove	m	2026-09-01	fails_gatekeeper_check
 moebius	m	2026-09-01	fails_gatekeeper_check
 mongotron	m	2026-01-05	unmaintained
-mono-mdk-for-visual-studio	m	2025-09-02	discontinued
 morkro-papyrus	m	2026-09-01	fails_gatekeeper_check
 moscow-ml	m	2026-09-01	fails_gatekeeper_check
 mountain	m	2026-04-01	unmaintained
 mqtt-explorer	m	2026-09-01	fails_gatekeeper_check
 msty	m	2026-01-02	discontinued
-mu-editor	m	2025-08-31	unmaintained
+mu-editor	m	2026-08-31	unmaintained
 multifirefox	m	2025-10-12	unmaintained
 multimc	m	2026-09-01	fails_gatekeeper_check
 mumble	m	2026-09-01	fails_gatekeeper_check
@@ -556,7 +547,6 @@ netxms-console	n	2026-09-01	fails_gatekeeper_check
 nextcloud-vfs	n	2026-04-01	discontinued
 nfov	n	2025-09-09	unmaintained
 no-ip-duc	n	2026-04-01	unmaintained
-nodeclipse	n	2025-09-02	unmaintained
 noisebuddy	n	2025-09-09	unmaintained
 notion-enhanced	n	2026-09-01	fails_gatekeeper_check
 novation-play	n	2026-02-22	
@@ -621,7 +611,6 @@ password-gorilla	p	2026-03-01	unmaintained
 pastebot@2	p	2026-07-25	discontinued
 pb	p	2026-09-01	fails_gatekeeper_check
 pd-l2ork	p	2026-09-01	fails_gatekeeper_check
-pdf-images	p	2025-09-02	unmaintained
 pdf-toolbox	p	2026-09-01	fails_gatekeeper_check
 pdfpen	p	2025-10-01	discontinued
 pdfpenpro	p	2025-10-01	discontinued
@@ -665,7 +654,6 @@ profilecreator	p	2026-09-01	fails_gatekeeper_check
 pronterface	p	2026-09-01	fails_gatekeeper_check
 protege	p	2026-09-01	fails_gatekeeper_check
 provisioning	p	2025-10-13	unmaintained
-provisionql	p	2025-09-22	no_longer_meets_criteria
 prowlarr	p	2026-09-01	fails_gatekeeper_check
 psi	p	2026-09-01	fails_gatekeeper_check
 psi-plus	p	2026-09-01	fails_gatekeeper_check
@@ -788,7 +776,6 @@ sonarr	s	2026-09-01	fails_gatekeeper_check
 sonarr@beta	s	2026-09-01	fails_gatekeeper_check
 sonic-robo-blast-2	s	2026-09-01	fails_gatekeeper_check
 sonic-robo-blast-2-kart	s	2026-09-01	fails_gatekeeper_check
-sonixd	s	2025-08-30	discontinued
 sonoair	s	2025-09-09	unmaintained
 soundflower	s	2025-11-16	unmaintained
 space-saver	s	2026-09-01	fails_gatekeeper_check
@@ -879,7 +866,6 @@ tip	t	2026-05-27	moved_to_mas
 tlv	t	2026-09-01	fails_gatekeeper_check
 tnefs-enough	t	2026-03-02	unmaintained
 todometer	t	2026-09-01	fails_gatekeeper_check
-todotxt	t	2025-08-30	unmaintained
 todour	t	2026-09-01	fails_gatekeeper_check
 toinane-colorpicker	t	2026-09-01	fails_gatekeeper_check
 tomatobar	t	2026-09-01	fails_gatekeeper_check
@@ -898,7 +884,6 @@ transmission@nightly	t	2026-09-01	fails_gatekeeper_check
 treesheets	t	2026-09-01	fails_gatekeeper_check
 tribler	t	2026-09-01	fails_gatekeeper_check
 tritium	t	2026-09-01	fails_gatekeeper_check
-trojanx	t	2025-08-30	unmaintained
 trolcommander	t	2025-10-27	unmaintained
 tsh	t	2025-11-18	unmaintained
 ttscoff-mmd-quicklook	t	2025-09-22	no_longer_meets_criteria
@@ -908,7 +893,6 @@ tuxguitar	t	2026-09-01	fails_gatekeeper_check
 tv-browser	t	2026-09-01	fails_gatekeeper_check
 tvrenamer	t	2026-03-02	unmaintained
 tyke	t	2025-10-27	unmaintained
-typcn-bilibili	t	2025-08-30	unmaintained
 tysimulator	t	2025-09-09	discontinued
 ubiquiti-unifi-controller	u	2026-09-01	fails_gatekeeper_check
 ubports-installer	u	2026-09-01	fails_gatekeeper_check
@@ -928,12 +912,10 @@ unity-android-support-for-editor	u	2026-09-01	fails_gatekeeper_check
 universal-android-debloater	u	2026-09-01	fails_gatekeeper_check
 universal-gcode-platform	u	2026-09-01	fails_gatekeeper_check
 unlox	u	2026-03-02	unmaintained
-upm	u	2025-08-30	unmaintained
 usbimager	u	2026-09-01	fails_gatekeeper_check
 usr-sse2-rdm	u	2026-09-01	fails_gatekeeper_check
 utc-menu-clock	u	2026-09-01	fails_gatekeeper_check
 uvtools	u	2026-09-01	fails_gatekeeper_check
-uxprotect	u	2025-08-30	unmaintained
 v2ray-unofficial	v	2026-09-01	fails_gatekeeper_check
 v2rayu	v	2026-09-01	fails_gatekeeper_check
 vagrant-manager	v	2026-09-01	fails_gatekeeper_check
@@ -954,7 +936,6 @@ vincelwt-chatgpt	v	2026-06-21	unmaintained
 vine-server	v	2026-09-01	fails_gatekeeper_check
 virtual-ii	v	2026-08-28	unreachable
 virtualbox@6	v	2025-11-15	discontinued
-visual-studio	v	2025-09-02	discontinued
 vitals	v	2026-09-01	fails_gatekeeper_check
 vlc@nightly	v	2026-09-01	fails_gatekeeper_check
 vmpk	v	2026-09-01	fails_gatekeeper_check
@@ -1008,7 +989,6 @@ yemuzip	y	2025-10-12	unmaintained
 yesplaymusic	y	2026-09-01	fails_gatekeeper_check
 yggdrasil	y	2026-09-01	fails_gatekeeper_check
 yippy	y	2026-09-01	fails_gatekeeper_check
-yoda	y	2025-09-02	unmaintained
 youll-never-take-me-alive	y	2025-09-09	unmaintained
 youtube-downloader	y	2026-09-01	fails_gatekeeper_check
 youtype	y	2026-09-01	fails_gatekeeper_check

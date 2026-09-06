@@ -14,8 +14,7 @@ cask "flameshot" do
       depends_on macos: :ventura
     end
 
-    url "https://github.com/flameshot-org/flameshot/releases/download/v#{version.csv.first}/Flameshot-#{version.csv.second}-macos-#{arch}.dmg",
-        verified: "github.com/flameshot-org/flameshot/"
+    url "https://github.com/flameshot-org/flameshot/releases/download/v#{version.csv.first}/Flameshot-#{version.csv.second}-macos-#{arch}.dmg"
 
 
     depends_on macos: :sequoia
@@ -27,8 +26,7 @@ cask "flameshot" do
   on_linux do
     sha256 "93ad1261ccae9387d35fd39a8b9428451163dfcba3f32658d80ec02ab0597789"
 
-    url "https://github.com/flameshot-org/flameshot/releases/download/v#{version.csv.first}/flameshot-v#{version.csv.second}+#{version.csv.third}-artifact-appimage-x86_64.zip",
-        verified: "github.com/flameshot-org/flameshot/"
+    url "https://github.com/flameshot-org/flameshot/releases/download/v#{version.csv.first}/flameshot-v#{version.csv.second}+#{version.csv.third}-artifact-appimage-x86_64.zip"
 
     depends_on arch: :x86_64
 

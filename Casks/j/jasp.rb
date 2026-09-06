@@ -9,8 +9,7 @@ cask "jasp" do
   on_intel do
   end
 
-  url "https://github.com/jasp-stats/jasp-desktop/releases/download/v#{version.csv.first.major_minor_patch}/JASP-#{version.csv.first}-macOS-#{arch}.dmg",
-      verified: "github.com/jasp-stats/jasp-desktop/"
+  url "https://github.com/jasp-stats/jasp-desktop/releases/download/v#{version.csv.first.major_minor_patch}/JASP-#{version.csv.first}-macOS-#{arch}.dmg"
   name "JASP"
   desc "Statistical analysis application"
   homepage "https://jasp-stats.org/"

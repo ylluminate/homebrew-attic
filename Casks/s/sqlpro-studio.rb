@@ -5,8 +5,7 @@ cask "sqlpro-studio" do
   on_sequoia :or_older do
   end
 
-  url "https://d3fwkemdw8spx3.cloudfront.net/studio/SQLProStudio.#{version}.app.zip",
-      verified: "d3fwkemdw8spx3.cloudfront.net/studio/"
+  url "https://d3fwkemdw8spx3.cloudfront.net/studio/SQLProStudio.#{version}.app.zip"
   name "SQLPro Studio"
   desc "Database management tool"
   homepage "https://www.sqlprostudio.com/"
