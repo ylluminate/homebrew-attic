@@ -2,8 +2,7 @@ cask "microsoft-teams@classic" do
   version "1.7.00.15956"
   sha256 "1a9e2ba7774d7bef0c0b450d6aa700d14d6b76637af7d60d291f3610a47f04c1"
 
-  url "https://statics.teams.cdn.office.net/production-osx/#{version}/Teams_osx.pkg",
-      verified: "statics.teams.cdn.office.net/production-osx/"
+  url "https://statics.teams.cdn.office.net/production-osx/#{version}/Teams_osx.pkg"
   name "Microsoft Teams Classic"
   desc "Meet, chat, call, and collaborate in just one place"
   homepage "https://www.microsoft.com/en-us/microsoft-teams/group-chat-software"

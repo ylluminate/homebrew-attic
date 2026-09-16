@@ -2,8 +2,7 @@ cask "ankermake" do
   version "0.9.44_6"
   sha256 "f201d782da18fb4b53de039a7731eee430bb6d75e4c7c6640d94c4a62e47dbe7"
 
-  url "https://github.com/ankermake/AnkerMake-Slicer/releases/download/v#{version.split("_").first}/AnkerMake_V#{version}.zip",
-      verified: "github.com/ankermake/AnkerMake-Slicer/"
+  url "https://github.com/ankermake/AnkerMake-Slicer/releases/download/v#{version.split("_").first}/AnkerMake_V#{version}.zip"
   name "AnkerMake"
   desc "Slicer for AnkerMake 3D printers"
   homepage "https://www.ankermake.com/software"

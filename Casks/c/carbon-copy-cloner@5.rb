@@ -2,8 +2,7 @@ cask "carbon-copy-cloner@5" do
   version "5.1.28.6213"
   sha256 "050ed65c493ff75bf415210de357ce552833c724e39c9d61043fd10151dd7a22"
 
-  url "https://bombich.scdn1.secure.raxcdn.com/software/files/ccc-#{version}.zip",
-      verified: "bombich.scdn1.secure.raxcdn.com/software/files/"
+  url "https://bombich.scdn1.secure.raxcdn.com/software/files/ccc-#{version}.zip"
   name "Carbon Copy Cloner 5"
   desc "Hard disk backup and cloning utility"
   homepage "https://bombich.com/"

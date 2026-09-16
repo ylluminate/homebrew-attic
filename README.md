@@ -23,13 +23,20 @@ to install this one.
 
 ## What's inside
 
-- **1226 cask definitions**, each with its `disable!` / `deprecate!` stanza stripped
-  and nothing else changed:
-  - **1057** still in `homebrew/cask` (disabled/deprecated but not yet removed), and
-  - **169** already removed from `homebrew/cask`, recovered from its git history.
+- **1231 cask definitions**, each with its `disable!` / `deprecate!` stanza stripped
+  and nothing else of substance changed:
+  - **1002** still in `homebrew/cask` (disabled/deprecated but not yet removed), and
+  - **229** no longer there at all — recovered from its git history, or rescued
+    here earlier and deleted upstream since.
 - **`bin/attic-sync`** — rescues casks currently in `homebrew/cask`. Idempotent.
 - **`bin/attic-recover`** — recovers casks Homebrew has already deleted (walks git
   history for cask files that carried a disable stanza before removal).
+- **`bin/attic-normalize`** — sweeps casks already on disk for deprecated cask DSL.
+  Neither engine above ever rewrites a cask Homebrew has deleted: `attic-sync` only
+  sees casks that still exist, and `attic-recover` skips tokens already present. So
+  those keep whatever syntax they were rescued with, and need their own pass.
+- **`bin/atticlib.py`** — the normalisation all three share, so a rescued cask cannot
+  arrive carrying DSL that makes Homebrew print a deprecation warning on every load.
 - **`MANIFEST.tsv`** — rescued casks with their original disable date and reason.
 
 ## Staying current
@@ -56,10 +63,15 @@ Both also run on demand (`gh workflow run sync.yml` / `recover.yml`).
 ## Refreshing
 
 ```bash
-bin/attic-sync            # clone homebrew/cask, strip, write Casks/
-bin/attic-sync --dry-run  # report only
+bin/attic-sync               # clone homebrew/cask, strip, write Casks/
+bin/attic-sync --dry-run     # report only
+bin/attic-normalize          # sweep existing casks for deprecated DSL
 git add -A && git commit -m "sync $(date +%F)" && git push
 ```
+
+`attic-normalize` is idempotent and reports `normalised 0` on a clean tap, so it is
+safe to run any time. Reach for it when Homebrew deprecates more of the cask DSL:
+add the rule to `bin/atticlib.py` and sweep.
 
 ## Attribution
 

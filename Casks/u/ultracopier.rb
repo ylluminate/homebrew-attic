@@ -2,8 +2,7 @@ cask "ultracopier" do
   version "2.2.6.8"
   sha256 "6018755f14d73156a4ba7746e481b466fcf00deec3805e6a8306c8e62a03400b"
 
-  url "https://cdn.confiared.com/ultracopier.herman-brule.com/files/#{version}/ultracopier-mac-os-x-#{version}.dmg",
-      verified: "cdn.confiared.com/ultracopier.herman-brule.com/files/"
+  url "https://cdn.confiared.com/ultracopier.herman-brule.com/files/#{version}/ultracopier-mac-os-x-#{version}.dmg"
   name "ultracopier"
   desc "Replacement for files copy dialogs"
   homepage "https://ultracopier.herman-brule.com/"

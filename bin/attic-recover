@@ -20,6 +20,9 @@ Usage:
 import argparse, os, re, subprocess, sys, tempfile, shutil
 from collections import Counter
 
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+from atticlib import normalise  # noqa: E402 — needs the path insert above
+
 STANZA = re.compile(r'^[ \t]*(disable!|deprecate!)', re.MULTILINE)
 LINE = re.compile(r'^[ \t]*(disable!|deprecate!)')
 REASON = re.compile(r'because:\s*:(\w+)')
@@ -92,7 +95,8 @@ def main():
             parts = path.split("/")
             shard = parts[1] if len(parts) == 3 else token[0].lower()
             dd = os.path.join(casks_out, shard); os.makedirs(dd, exist_ok=True)
-            open(os.path.join(dd, token + ".rb"), "w", encoding="utf-8").write(strip_stanza(text))
+            body, _ = normalise(strip_stanza(text))
+            open(os.path.join(dd, token + ".rb"), "w", encoding="utf-8").write(body)
         recovered += 1
 
     print(f"\nscanned {len(deletions)} deleted casks since {args.since}; "

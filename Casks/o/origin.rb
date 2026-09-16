@@ -2,8 +2,7 @@ cask "origin" do
   version "10.5.128.55504"
   sha256 :no_check
 
-  url "https://origin-a.akamaihd.net/Origin-Client-Download/origin/mac/live/Origin.dmg",
-      verified: "origin-a.akamaihd.net/Origin-Client-Download/"
+  url "https://origin-a.akamaihd.net/Origin-Client-Download/origin/mac/live/Origin.dmg"
   name "Origin"
   desc "Play PC games and connect with your friends"
   homepage "https://www.origin.com/"

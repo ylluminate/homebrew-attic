@@ -2,8 +2,7 @@ cask "zeronet" do
   version "0.7.1"
   sha256 :no_check
 
-  url "https://github.com/HelloZeroNet/ZeroNet-dist/archive/refs/heads/mac/ZeroNet-dist-mac.tar.gz",
-      verified: "github.com/HelloZeroNet/ZeroNet-dist/"
+  url "https://github.com/HelloZeroNet/ZeroNet-dist/archive/refs/heads/mac/ZeroNet-dist-mac.tar.gz"
   name "ZeroNet"
   desc "Decentralised websites using Bitcoin crypto and BitTorrent network"
   homepage "https://zeronet.io/"

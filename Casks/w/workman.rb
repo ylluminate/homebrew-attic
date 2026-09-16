@@ -2,8 +2,7 @@ cask "workman" do
   version "1.0"
   sha256 :no_check
 
-  url "https://github.com/workman-layout/Workman/archive/refs/heads/master.tar.gz",
-      verified: "github.com/workman-layout/Workman/"
+  url "https://github.com/workman-layout/Workman/archive/refs/heads/master.tar.gz"
   name "Workman keyboard layout"
   desc "Alternative English keyboard layout"
   homepage "https://workmanlayout.org/"

@@ -17,6 +17,9 @@ Usage:
 """
 import argparse, os, re, subprocess, sys, tempfile, shutil
 
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+from atticlib import normalise  # noqa: E402 — needs the path insert above
+
 STANZA = re.compile(r'^[ \t]*(disable!|deprecate!)', re.MULTILINE)
 REASON = re.compile(r'because:\s*:(\w+)')
 DATERE = re.compile(r'date:\s*"([^"]+)"')
@@ -74,6 +77,7 @@ def main():
             if not STANZA.search(text):
                 continue
             new_text, removed = strip_stanza(text)
+            new_text, _ = normalise(new_text)
             shard = os.path.basename(root)          # first-letter dir
             token = fn[:-3]
             reason = date = ""

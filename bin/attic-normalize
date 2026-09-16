@@ -1,0 +1,56 @@
+#!/usr/bin/env python3
+"""
+attic-normalize — apply atticlib.normalise() to every cask already in the tap.
+
+attic-sync and attic-recover normalise what they write, but casks Homebrew has
+*deleted* upstream are never rewritten by either: sync only sees casks that
+still exist, and recover skips tokens already present. Those keep whatever DSL
+they were rescued with. This sweeps them.
+
+Run it after adding a rule to atticlib, or any time Homebrew deprecates more of
+the cask DSL. Idempotent — a clean tap reports 0 changes.
+
+Usage:
+  bin/attic-normalize            # rewrite in place
+  bin/attic-normalize --dry-run  # report only, write nothing
+"""
+import argparse, os, sys
+
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+from atticlib import normalise  # noqa: E402 — needs the path insert above
+
+
+def main():
+    ap = argparse.ArgumentParser()
+    ap.add_argument("--dry-run", action="store_true")
+    args = ap.parse_args()
+
+    tap = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+    casks = os.path.join(tap, "Casks")
+
+    changed, removed, scanned = [], 0, 0
+    for root, _, files in os.walk(casks):
+        for fn in sorted(files):
+            if not fn.endswith(".rb"):
+                continue
+            scanned += 1
+            path = os.path.join(root, fn)
+            text = open(path, encoding="utf-8").read()
+            new_text, n = normalise(text)
+            if not n:
+                continue
+            if not args.dry_run:
+                open(path, "w", encoding="utf-8").write(new_text)
+            changed.append(os.path.relpath(path, tap))
+            removed += n
+
+    for rel in sorted(changed):
+        print(f"  {rel}")
+    print(f"\nscanned {scanned} casks; normalised {len(changed)}; "
+          f"removed {removed} deprecated line(s)"
+          + (" (dry-run, nothing written)" if args.dry_run else ""))
+    return 0
+
+
+if __name__ == "__main__":
+    sys.exit(main())
