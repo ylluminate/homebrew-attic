@@ -15,6 +15,11 @@
 .codex/
 .gemini/
 
+# python bytecode — the engines import bin/atticlib.py, and CI has no global
+# gitignore, so without this every Action run commits a fresh .pyc
+__pycache__/
+*.pyc
+
 # editor
 *.swp
 *.swo
