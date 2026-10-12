@@ -11,7 +11,7 @@ cask "vincelwt-chatgpt" do
   homepage "https://github.com/vincelwt/chatgpt-mac"
 
 
-  depends_on macos: :big_sur
+  depends_on :macos
 
   app "Chatgpt.app"
 

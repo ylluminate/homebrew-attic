@@ -13,7 +13,7 @@ cask "acronis-true-image-cleanup-tool" do
   end
 
 
-  depends_on macos: :big_sur
+  depends_on :macos
 
   lib_directory = "#{HOMEBREW_PREFIX}/lib/acronis-true-image"
 

@@ -11,7 +11,7 @@ cask "ilspy" do
   homepage "https://github.com/icsharpcode/AvaloniaILSpy"
 
 
-  depends_on macos: :big_sur
+  depends_on :macos
 
   app "artifacts/osx-#{arch}/ILSpy.app"
 

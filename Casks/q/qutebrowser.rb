@@ -11,7 +11,7 @@ cask "qutebrowser" do
   homepage "https://www.qutebrowser.org/"
 
 
-  depends_on macos: :big_sur
+  depends_on :macos
 
   app "qutebrowser.app"
   command_wrapper "qutebrowser",

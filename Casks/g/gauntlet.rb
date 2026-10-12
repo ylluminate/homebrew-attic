@@ -8,7 +8,7 @@ cask "gauntlet" do
   homepage "https://github.com/project-gauntlet/gauntlet"
 
 
-  depends_on macos: :big_sur
+  depends_on :macos
 
   app "Gauntlet.app"
 

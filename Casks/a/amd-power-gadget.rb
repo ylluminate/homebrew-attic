@@ -8,8 +8,8 @@ cask "amd-power-gadget" do
   homepage "https://github.com/trulyspinach/SMCAMDProcessor"
 
 
-  depends_on :macos
   depends_on arch: :x86_64
+  depends_on :macos
 
   app "AMD Power Gadget.app"
 end

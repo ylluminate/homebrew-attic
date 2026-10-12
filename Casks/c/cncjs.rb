@@ -13,8 +13,8 @@ cask "cncjs" do
   end
 
 
-  depends_on :macos
   depends_on arch: :arm64
+  depends_on :macos
 
   app "CNCjs.app"
 

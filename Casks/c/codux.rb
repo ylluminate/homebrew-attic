@@ -11,7 +11,7 @@ cask "codux" do
   homepage "https://www.codux.com/"
 
 
-  depends_on macos: :big_sur
+  depends_on :macos
 
   app "Codux.app"
 

@@ -8,7 +8,7 @@ cask "silicon-info" do
   homepage "https://github.com/billycastelli/Silicon-Info"
 
 
-  depends_on macos: :big_sur
+  depends_on :macos
 
   app "Silicon Info.app"
 

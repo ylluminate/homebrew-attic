@@ -11,7 +11,7 @@ cask "ultimate-vocal-remover" do
   homepage "https://github.com/Anjok07/ultimatevocalremovergui/"
 
 
-  depends_on macos: :big_sur
+  depends_on :macos
 
   app "Ultimate Vocal Remover.app"
 

@@ -8,7 +8,7 @@ cask "tempbox" do
   homepage "https://tempbox.waseem.works/"
 
 
-  depends_on macos: :big_sur
+  depends_on :macos
 
   app "TempBox.app"
 

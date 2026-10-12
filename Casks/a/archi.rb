@@ -13,7 +13,7 @@ cask "archi" do
   # Upstream deletes any comments on their repo about downstream packaging
   # Ref: https://github.com/Homebrew/homebrew-cask/issues/236819#issuecomment-3549051960
 
-  depends_on macos: :big_sur
+  depends_on :macos
 
   app "Archi.app"
 

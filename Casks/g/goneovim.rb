@@ -17,7 +17,7 @@ cask "goneovim" do
 
 
   depends_on formula: "neovim"
-  depends_on macos: :big_sur
+  depends_on :macos
 
   app "goneovim-v#{version}-macos-#{arch}/goneovim.app"
   command_wrapper "goneovim",

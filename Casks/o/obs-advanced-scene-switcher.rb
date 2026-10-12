@@ -14,7 +14,7 @@ cask "obs-advanced-scene-switcher" do
 
 
   depends_on cask: "obs"
-  depends_on macos: :big_sur
+  depends_on :macos
 
   pkg "advanced-scene-switcher-#{version}-macos-universal.pkg"
 

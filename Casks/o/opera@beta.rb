@@ -10,7 +10,7 @@ cask "opera@beta" do
   # https://blogs.opera.com/desktop/2026/01/opera-126-0-5750-30-beta-update
 
   auto_updates true
-  depends_on macos: :big_sur
+  depends_on :macos
 
   app "Opera Beta.app"
 

@@ -13,8 +13,8 @@ cask "dmidiplayer" do
   end
 
 
-  depends_on :macos
   depends_on formula: "fluid-synth"
+  depends_on :macos
 
   app "dmidiplayer.app"
 

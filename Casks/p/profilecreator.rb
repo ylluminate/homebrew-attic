@@ -8,7 +8,7 @@ cask "profilecreator" do
   homepage "https://github.com/ProfileCreator/ProfileCreator"
 
 
-  depends_on macos: :big_sur
+  depends_on :macos
 
   app "ProfileCreator.app"
 

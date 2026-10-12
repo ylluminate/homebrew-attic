@@ -11,7 +11,7 @@ cask "bandage" do
   homepage "https://rrwick.github.io/Bandage/"
 
 
-  depends_on macos: :big_sur
+  depends_on :macos
 
   app "Bandage.app"
   command_wrapper "bandage",

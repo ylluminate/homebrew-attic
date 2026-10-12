@@ -8,8 +8,8 @@ cask "mit-app-inventor" do
   homepage "https://appinventor.mit.edu/explore/ai2/mac"
 
 
-  depends_on :macos
   depends_on arch: :x86_64
+  depends_on :macos
 
   pkg "MITAppInventorSetup.pkg"
 

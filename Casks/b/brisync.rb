@@ -8,7 +8,7 @@ cask "brisync" do
   homepage "https://github.com/czarny/Brisync/"
 
 
-  depends_on macos: :big_sur
+  depends_on :macos
 
   app "Brisync.app"
 

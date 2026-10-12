@@ -16,7 +16,7 @@ cask "double-commander" do
   end
 
 
-  depends_on macos: :big_sur
+  depends_on :macos
 
   app "Double Commander.app"
 

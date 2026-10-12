@@ -14,8 +14,8 @@ cask "sonarr@beta" do
 
 
   conflicts_with cask: "sonarr"
-  depends_on :macos
   depends_on cask: "mono-mdk"
+  depends_on :macos
 
   app "Sonarr.app"
 

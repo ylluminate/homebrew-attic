@@ -13,8 +13,8 @@ cask "vmpk" do
   end
 
 
-  depends_on :macos
   depends_on formula: "fluid-synth"
+  depends_on :macos
 
   app "vmpk.app"
 

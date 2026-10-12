@@ -19,8 +19,8 @@ cask "metasploit" do
   end
 
 
-  depends_on :macos
   depends_on formula: "nmap"
+  depends_on :macos
 
   pkg "metasploit-framework-#{version.csv.first}-#{version.csv.second}-1rapid7-1.x86_64.pkg"
   binary "/opt/metasploit-framework/bin/msfbinscan"

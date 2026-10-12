@@ -34,7 +34,7 @@ cask "stolendata-mpv" do
   end
 
 
-  depends_on macos: :big_sur
+  depends_on :macos
 
   folder = label&.sub("VERSION", version)
 

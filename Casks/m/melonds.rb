@@ -8,7 +8,7 @@ cask "melonds" do
   homepage "https://melonds.kuribo64.net/"
 
 
-  depends_on macos: :big_sur
+  depends_on :macos
 
   app "melonDS.app"
 

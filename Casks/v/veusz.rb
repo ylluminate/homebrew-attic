@@ -27,7 +27,7 @@ cask "veusz" do
   end
 
 
-  depends_on macos: :big_sur
+  depends_on :macos
 
   app "Veusz.app"
 

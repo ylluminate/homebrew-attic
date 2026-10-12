@@ -13,8 +13,8 @@ cask "ckan-app" do
   end
 
 
-  depends_on :macos
   depends_on cask: "mono-mdk"
+  depends_on :macos
 
   app "CKAN.app"
 

@@ -24,8 +24,8 @@ cask "superslicer" do
   end
 
 
-  depends_on :macos
   depends_on formula: "zstd"
+  depends_on :macos
 
   app "SuperSlicer.app"
 

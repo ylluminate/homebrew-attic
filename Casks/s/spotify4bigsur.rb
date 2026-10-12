@@ -8,7 +8,7 @@ cask "spotify4bigsur" do
   homepage "https://github.com/fabiusBile/Spotify4BigSur"
 
 
-  depends_on macos: :big_sur
+  depends_on :macos
 
   # Renamed for clarity: app name is inconsistent with its branding.
   app "SpotifyMain.app", target: "Spotify4BigSur.app"

@@ -10,7 +10,7 @@ cask "unite-phone" do
 
   # Artifact URL is consistently unreachable in the homebrew/cask CI environment
 
-  depends_on macos: :big_sur
+  depends_on :macos
 
   app "Unite Phone.app"
 

@@ -8,7 +8,7 @@ cask "dteoh-devdocs" do
   homepage "https://github.com/dteoh/devdocs-macos/"
 
 
-  depends_on macos: :big_sur
+  depends_on :macos
 
   app "DevDocs.app"
 

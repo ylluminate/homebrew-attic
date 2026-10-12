@@ -12,8 +12,8 @@ cask "whisky" do
   # from deprecation date, if it is still functional.
 
   auto_updates true
-  depends_on macos: :sonoma
   depends_on arch: :arm64
+  depends_on macos: :sonoma
 
   app "Whisky.app"
   binary "#{appdir}/Whisky.app/Contents/Resources/WhiskyCmd", target: "whisky"

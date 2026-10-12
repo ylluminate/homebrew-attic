@@ -8,7 +8,7 @@ cask "psst" do
   homepage "https://github.com/jpochyla/psst/"
 
 
-  depends_on macos: :big_sur
+  depends_on :macos
 
   app "Psst.app"
 

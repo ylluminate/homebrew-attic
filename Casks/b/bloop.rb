@@ -11,7 +11,7 @@ cask "bloop" do
   homepage "https://bloop.ai/"
 
 
-  depends_on macos: :big_sur
+  depends_on :macos
 
   app "bloop.app"
 

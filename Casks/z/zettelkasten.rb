@@ -13,7 +13,7 @@ cask "zettelkasten" do
   end
 
 
-  depends_on macos: :big_sur
+  depends_on :macos
 
   app "Zettelkasten.app"
 

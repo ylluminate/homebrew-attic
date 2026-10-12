@@ -8,8 +8,8 @@ cask "kiibohd-configurator" do
   homepage "https://kiibohd.com/"
 
 
-  depends_on :macos
   depends_on formula: "dfu-util"
+  depends_on :macos
 
   app "Kiibohd Configurator.app"
 

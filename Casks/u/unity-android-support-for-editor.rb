@@ -12,8 +12,8 @@ cask "unity-android-support-for-editor" do
   end
 
 
-  depends_on :macos
   depends_on cask: "unity"
+  depends_on :macos
 
   pkg "UnitySetup-Android-Support-for-Editor-#{version.csv.first}.pkg"
 

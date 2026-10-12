@@ -9,7 +9,7 @@ cask "id3-editor" do
 
   # Artifact not available over HTTPS
 
-  depends_on macos: :big_sur
+  depends_on :macos
 
   app "ID3 Editor.app"
 

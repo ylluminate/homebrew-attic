@@ -16,7 +16,7 @@ cask "tetrio" do
   end
 
 
-  depends_on macos: :big_sur
+  depends_on :macos
 
   app "TETR.IO.app"
 

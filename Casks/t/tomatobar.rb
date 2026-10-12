@@ -8,7 +8,7 @@ cask "tomatobar" do
   homepage "https://github.com/ivoronin/TomatoBar"
 
 
-  depends_on macos: :big_sur
+  depends_on :macos
 
   app "TomatoBar.app"
 

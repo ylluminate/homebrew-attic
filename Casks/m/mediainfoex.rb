@@ -8,7 +8,7 @@ cask "mediainfoex" do
   homepage "https://github.com/sbarex/MediaInfo"
 
 
-  depends_on macos: :big_sur
+  depends_on :macos
 
   app "MediaInfoEx.app"
 

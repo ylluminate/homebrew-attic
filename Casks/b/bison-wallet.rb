@@ -25,7 +25,7 @@ cask "bison-wallet" do
   homepage "https://github.com/decred/dcrdex"
 
 
-  depends_on macos: :big_sur
+  depends_on :macos
 
   app "Bison Wallet.app"
 

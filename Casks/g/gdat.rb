@@ -19,7 +19,7 @@ cask "gdat" do
   end
 
 
-  depends_on macos: :big_sur
+  depends_on :macos
   container nested: "macOS 64 bit/Genealogical DNA Analysis Tool.app.tar"
 
   app "Genealogical DNA Analysis Tool.app"

@@ -13,8 +13,8 @@ cask "gstreamer-development" do
   end
 
 
-  depends_on :macos
   depends_on cask: "gstreamer-runtime"
+  depends_on :macos
 
   pkg "gstreamer-1.0-devel-#{version}-universal.pkg"
 

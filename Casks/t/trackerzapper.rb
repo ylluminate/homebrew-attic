@@ -8,7 +8,7 @@ cask "trackerzapper" do
   homepage "https://rknight.me/apps/tracker-zapper"
 
 
-  depends_on macos: :big_sur
+  depends_on :macos
 
   app "TrackerZapper.app"
 

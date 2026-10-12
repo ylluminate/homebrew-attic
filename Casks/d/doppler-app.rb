@@ -9,7 +9,7 @@ cask "doppler-app" do
 
   # Download url is unreachable due to Cloudflare protections
 
-  depends_on macos: :big_sur
+  depends_on :macos
 
   app "Doppler.app"
 

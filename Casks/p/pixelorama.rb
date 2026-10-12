@@ -8,7 +8,7 @@ cask "pixelorama" do
   homepage "https://orama-interactive.itch.io/pixelorama"
 
 
-  depends_on macos: :big_sur
+  depends_on :macos
 
   app "Pixelorama.app"
 

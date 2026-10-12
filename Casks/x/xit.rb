@@ -53,7 +53,7 @@ cask "xit" do
   homepage "https://github.com/Uncommon/Xit"
 
 
-  depends_on macos: :big_sur
+  depends_on :macos
 
   zap trash: [
     "~/Library/Application Support/com.apple.sharedfilelist/com.apple.LSSharedFileList.ApplicationRecentDocuments/com.uncommonplace.xit.sfl*",

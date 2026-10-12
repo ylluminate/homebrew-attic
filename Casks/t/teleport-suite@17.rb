@@ -18,7 +18,6 @@ cask "teleport-suite@17" do
 
   conflicts_with cask: [
     "teleport-suite",
-    "teleport-suite@16",
     "tsh",
   ]
   depends_on :macos

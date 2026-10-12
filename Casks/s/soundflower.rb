@@ -7,8 +7,8 @@ cask "soundflower" do
   homepage "https://github.com/mattingalls/Soundflower"
 
 
-  depends_on :macos
   depends_on arch: :x86_64
+  depends_on :macos
 
   pkg "Soundflower.pkg"
 

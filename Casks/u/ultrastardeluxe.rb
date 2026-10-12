@@ -11,7 +11,7 @@ cask "ultrastardeluxe" do
   homepage "https://usdx.eu/"
 
 
-  depends_on macos: :big_sur
+  depends_on :macos
 
   app "UltraStarDeluxe.app"
 

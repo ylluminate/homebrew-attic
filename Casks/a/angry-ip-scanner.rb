@@ -11,7 +11,7 @@ cask "angry-ip-scanner" do
   homepage "https://angryip.org/"
 
 
-  depends_on macos: :big_sur
+  depends_on :macos
 
   app "Angry IP Scanner.app"
 

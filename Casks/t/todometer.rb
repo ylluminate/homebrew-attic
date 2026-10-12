@@ -20,7 +20,7 @@ cask "todometer" do
     end
 
 
-    depends_on macos: :big_sur
+    depends_on macos: :any
 
     app "mac/todometer.app"
   end
