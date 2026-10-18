@@ -68,13 +68,11 @@ backyard-ai	b	2026-09-20	discontinued
 ballast	b	2026-09-01	fails_gatekeeper_check
 bandage	b	2026-09-01	fails_gatekeeper_check
 baretorrent	b	2026-09-01	fails_gatekeeper_check
-baritone	b	2025-10-12	unmaintained
 barrier	b	2026-05-14	unmaintained
 battlescribe	b	2025-11-16	unmaintained
 bdinfo	b	2026-09-01	fails_gatekeeper_check
 betaflight-configurator	b	2026-12-26	discontinued
 betelguese	b	2026-09-01	fails_gatekeeper_check
-better-window-manager	b	2025-10-12	unmaintained
 betterdiscord-installer	b	2026-09-01	fails_gatekeeper_check
 betwixt	b	2026-04-30	unmaintained
 bili-downloader	b	2026-09-01	fails_gatekeeper_check
@@ -146,13 +144,11 @@ cinder	c	2026-10-12	fails_gatekeeper_check
 circuitjs1	c	2026-09-01	fails_gatekeeper_check
 cisco-proximity	c	2026-05-18	discontinued
 ckan-app	c	2026-09-01	fails_gatekeeper_check
-cleartext	c	2025-10-12	discontinued
 clementine	c	2025-12-01	discontinued
 cljstyle	c	2026-09-01	fails_gatekeeper_check
 clock-bar	c	2026-09-01	fails_gatekeeper_check
 clover-configurator	c	2026-09-01	fails_gatekeeper_check
 cmd-eikana	c	2026-09-01	fails_gatekeeper_check
-cmdtap	c	2025-10-14	unmaintained
 cncjs	c	2026-09-01	fails_gatekeeper_check
 cockatrice	c	2026-09-01	fails_gatekeeper_check
 codelite	c	2026-09-01	fails_gatekeeper_check
@@ -163,7 +159,6 @@ coffitivity-offline	c	2026-04-30	unmaintained
 coinomi-wallet	c	2026-05-27	moved_to_mas
 colorpicker-materialdesign	c	2026-10-12	fails_gatekeeper_check
 comictagger	c	2026-09-01	fails_gatekeeper_check
-composercat	c	2025-10-12	unmaintained
 conferences	c	2026-09-01	fails_gatekeeper_check
 container-ps	c	2026-09-01	fails_gatekeeper_check
 contour	c	2026-09-01	fails_gatekeeper_check
@@ -185,7 +180,6 @@ dataspell	d	2026-09-01	discontinued
 davmail-app	d	2026-09-01	fails_gatekeeper_check
 dd-utility	d	2026-09-01	fails_gatekeeper_check
 deadbeef@nightly	d	2026-09-01	fails_gatekeeper_check
-debookee	d	2025-10-12	no_longer_available
 decloner	d	2026-04-01	unmaintained
 deco	d	2026-04-30	unmaintained
 deepstream	d	2026-09-01	fails_gatekeeper_check
@@ -205,6 +199,7 @@ distroav	d	2026-11-14
 djview	d	2026-09-01	fails_gatekeeper_check
 dmidiplayer	d	2026-09-01	fails_gatekeeper_check
 dogecoin	d	2026-09-01	fails_gatekeeper_check
+donut	d	2026-10-15	discontinued
 doppler-app	d	2026-01-25	unreachable
 dosbox-x-app	d	2026-09-01	fails_gatekeeper_check
 double-commander	d	2026-09-01	fails_gatekeeper_check
@@ -219,7 +214,6 @@ dust3d	d	2026-09-01	fails_gatekeeper_check
 dvdstyler	d	2026-09-01	fails_gatekeeper_check
 dwarf-fortress-lmp	d	2026-10-12	fails_gatekeeper_check
 dyn-updater	d	2026-09-01	fails_gatekeeper_check
-ealeksandrov-cd-to	e	2025-10-14	unmaintained
 easyeda	e	2026-09-01	fails_gatekeeper_check
 editaro	e	2026-09-01	fails_gatekeeper_check
 eiskaltdcpp	e	2026-09-01	fails_gatekeeper_check
@@ -230,14 +224,12 @@ electron	e	2026-09-01	fails_gatekeeper_check
 electronmail	e	2026-09-01	fails_gatekeeper_check
 elektron-transfer	e	2025-11-01	unreachable
 eloquent	e	2026-09-01	fails_gatekeeper_check
-eme	e	2025-10-14	unmaintained
 encryptme	e	2026-09-01	fails_gatekeeper_check
 endless-sky	e	2026-09-01	fails_gatekeeper_check
 energia	e	2026-10-03	no_longer_available
 enigma-game	e	2026-10-12	fails_gatekeeper_check
 enjoyable	e	2026-04-01	unmaintained
 epoch-flip-clock	e	2026-10-12	fails_gatekeeper_check
-epubmdimporter	e	2025-10-13	unmaintained
 eurkey	e	2026-04-11	discontinued
 evkey	e	2026-09-01	fails_gatekeeper_check
 exfalso	e	2026-09-01	fails_gatekeeper_check
@@ -247,7 +239,6 @@ explorer	e	2026-04-30	unmaintained
 extraterm	e	2026-09-01	fails_gatekeeper_check
 fantasy-grounds	f	2026-03-16	discontinued
 far2l	f	2026-09-01	fails_gatekeeper_check
-fauxpas	f	2025-10-12	unmaintained
 fedora-media-writer	f	2026-09-01	fails_gatekeeper_check
 fertigt-slate	f	2026-09-01	fails_gatekeeper_check
 fightcade	f	2026-09-01	fails_gatekeeper_check
@@ -267,7 +258,6 @@ fly	f	2026-09-01	fails_gatekeeper_check
 flycast	f	2026-09-01	fails_gatekeeper_check
 fmail	f	2026-10-11	no_longer_available
 fmail2	f	2026-05-16	discontinued
-focusrite-saffire-mixcontrol	f	2025-10-15	discontinued
 foldingtext	f	2025-11-01	unmaintained
 font-andagii	font-a	2025-12-23	no_longer_meets_criteria
 font-andron-scriptor-web	font-a	2026-01-24	no_longer_available
@@ -296,7 +286,6 @@ freesurfer	f	2026-10-11	fails_gatekeeper_check
 freetube	f	2026-09-01	fails_gatekeeper_check
 fstream	f	2025-11-01	unmaintained
 ftdi-vcp-driver	f	2026-05-16	unreachable
-functionflip	f	2025-10-14	unmaintained
 futurerestore-gui	f	2026-09-01	fails_gatekeeper_check
 fvim	f	2026-09-01	fails_gatekeeper_check
 fx-cast-bridge	f	2026-09-01	fails_gatekeeper_check
@@ -310,7 +299,6 @@ gdlauncher	g	2026-09-01	fails_gatekeeper_check
 geogebra	g	2026-09-01	fails_gatekeeper_check
 get-lyrical	g	2025-11-01	unmaintained
 ghdl	g	2026-09-01	fails_gatekeeper_check
-ghosttile	g	2025-10-14	unmaintained
 gingko	g	2026-09-01	fails_gatekeeper_check
 gisto	g	2026-09-01	fails_gatekeeper_check
 git-it	g	2026-09-01	fails_gatekeeper_check
@@ -343,7 +331,6 @@ gswitch	g	2026-09-01	fails_gatekeeper_check
 gtkwave	g	2025-10-29	discontinued
 guijs	g	2026-09-01	fails_gatekeeper_check
 guitar-pro	g	2026-03-21	
-gutenprint	g	2025-10-14	discontinued
 hackintool	h	2026-09-01	fails_gatekeeper_check
 hakuneko	h	2026-09-01	fails_gatekeeper_check
 handshaker	h	2026-03-01	unmaintained
@@ -407,7 +394,6 @@ jdiskreport	j	2025-11-01	unmaintained
 jedit	j	2026-09-01	fails_gatekeeper_check
 jet-pilot	j	2026-10-04	fails_gatekeeper_check
 jetbrains-space	j	2026-10-06	no_longer_available
-jewelrybox	j	2025-10-12	unmaintained
 jgrennison-openttd	j	2026-09-01	fails_gatekeeper_check
 jlutil	j	2025-11-17	unmaintained
 jmc	j	2025-11-10	unmaintained
@@ -450,7 +436,6 @@ lepton	l	2026-09-01	fails_gatekeeper_check
 librecad	l	2026-09-01	fails_gatekeeper_check
 license-control-center	l	2026-05-27	discontinued
 lidarr	l	2026-09-01	fails_gatekeeper_check
-lighting	l	2025-10-12	unmaintained
 lightproxy	l	2026-09-01	fails_gatekeeper_check
 limitless	l	2026-06-21	discontinued
 linkliar	l	2026-09-01	fails_gatekeeper_check
@@ -470,14 +455,12 @@ loungy	l	2026-09-01	fails_gatekeeper_check
 love	l	2026-09-01	fails_gatekeeper_check
 lumen	l	2026-09-01	fails_gatekeeper_check
 lunasea	l	2026-04-02	discontinued
-luxmark	l	2025-10-12	unmaintained
 lw-scanner	l	2026-09-01	fails_gatekeeper_check
 lx-music	l	2026-09-01	fails_gatekeeper_check
 lynkeos	l	2026-09-01	fails_gatekeeper_check
 lyx	l	2026-09-01	fails_gatekeeper_check
 macast	m	2026-09-01	fails_gatekeeper_check
 macdown	m	2026-09-01	fails_gatekeeper_check
-machg	m	2025-10-12	unmaintained
 machoview	m	2026-09-01	fails_gatekeeper_check
 macjournal	m	2026-09-01	fails_gatekeeper_check
 macpar-deluxe	m	2026-09-14	no_longer_available
@@ -492,7 +475,6 @@ manyverse	m	2026-09-01	fails_gatekeeper_check
 marble	m	2025-10-27	unmaintained
 mark-text	m	2026-09-01	fails_gatekeeper_check
 markdown-service-tools	m	2026-10-12	fails_gatekeeper_check
-mars	m	2025-10-15	unmaintained
 material-colors	m	2026-09-01	fails_gatekeeper_check
 matterhorn	m	2026-09-01	fails_gatekeeper_check
 mechvibes	m	2026-09-01	fails_gatekeeper_check
@@ -500,12 +482,8 @@ mediaelch	m	2026-09-01	fails_gatekeeper_check
 mediainfoex	m	2026-09-01	fails_gatekeeper_check
 megazeux	m	2026-09-01	fails_gatekeeper_check
 melonds	m	2026-09-01	fails_gatekeeper_check
-memory-map	m	2025-10-14	discontinued
-menucalendarclock-ical	m	2025-10-12	unmaintained
 menutube	m	2026-09-01	fails_gatekeeper_check
 messenger	m	2025-12-25	discontinued
-messenger-native	m	2025-10-14	unmaintained
-metabase-app	m	2025-10-15	discontinued
 metasploit	m	2026-09-01	fails_gatekeeper_check
 metaz	m	2026-09-01	fails_gatekeeper_check
 mfiles	m	2026-09-01	fails_gatekeeper_check
@@ -533,19 +511,16 @@ mountain	m	2026-04-01	unmaintained
 mqtt-explorer	m	2026-09-01	fails_gatekeeper_check
 msty	m	2026-01-02	discontinued
 mu-editor	m	2026-08-31	unmaintained
-multifirefox	m	2025-10-12	unmaintained
 multimc	m	2026-09-01	fails_gatekeeper_check
 mumble	m	2026-09-01	fails_gatekeeper_check
 mumble@snapshot	m	2026-09-01	fails_gatekeeper_check
 muse	m	2026-10-01	
 mycrypto	m	2026-09-01	fails_gatekeeper_check
-mysides	m	2025-10-13	unmaintained
 n1ghtshade	n	2026-09-01	fails_gatekeeper_check
 nagbar	n	2026-09-01	fails_gatekeeper_check
 nagstamon	n	2026-09-01	fails_gatekeeper_check
 nano-node	n	2026-09-01	fails_gatekeeper_check
 nanoem	n	2026-09-01	fails_gatekeeper_check
-nasas-eyes	n	2025-10-12	discontinued
 natron	n	2026-09-01	fails_gatekeeper_check
 nault	n	2026-09-01	fails_gatekeeper_check
 navicat-data-modeler-essentials	n	2026-02-23	discontinued
@@ -554,13 +529,11 @@ netdownloadhelpercoapp	n	2026-05-02	discontinued
 netxms-console	n	2026-09-01	fails_gatekeeper_check
 nextcloud-vfs	n	2026-04-01	discontinued
 no-ip-duc	n	2026-04-01	unmaintained
-notchnook	n	2026-09-19	unreachable
 notion-enhanced	n	2026-09-01	fails_gatekeeper_check
 novation-play	n	2026-02-22	
 noxappplayer	n	2026-09-01	fails_gatekeeper_check
 nrlquaker-winbox	n	2026-09-01	fails_gatekeeper_check
 nslogger	n	2026-03-02	unmaintained
-ntfstool	n	2026-09-01	fails_gatekeeper_check
 nuage	n	2026-09-01	fails_gatekeeper_check
 nuclear	n	2026-09-01	fails_gatekeeper_check
 nulloy	n	2026-09-01	fails_gatekeeper_check
@@ -574,7 +547,7 @@ oclint	o	2026-09-01	fails_gatekeeper_check
 old-school-runescape	o	2025-12-25	discontinued
 olive	o	2026-09-01	fails_gatekeeper_check
 olympus	o	2026-09-01	fails_gatekeeper_check
-omnidb	o	2025-10-15	unmaintained
+onyx@beta	o	2026-10-16	no_longer_available
 openbci	o	2026-09-01	fails_gatekeeper_check
 openboardview	o	2026-09-01	fails_gatekeeper_check
 opencore-configurator	o	2026-09-01	fails_gatekeeper_check
@@ -605,8 +578,6 @@ oso-cloud	o	2026-09-01	fails_gatekeeper_check
 oss-browser	o	2026-09-01	fails_gatekeeper_check
 osxfuse	o	2026-03-28	discontinued
 outguess	o	2026-02-08	unreachable
-oxygen-xml-developer	o	2026-10-12	fails_gatekeeper_check
-oxygen-xml-editor	o	2026-10-12	fails_gatekeeper_check
 packet-peeper	p	2026-09-01	fails_gatekeeper_check
 pages-data-merge	p	2026-09-01	fails_gatekeeper_check
 panwriter	p	2026-09-01	fails_gatekeeper_check
@@ -642,7 +613,6 @@ polkadot-js	p	2026-08-04	discontinued
 pololu-avr-programmer-v2	p	2026-09-01	fails_gatekeeper_check
 polyphone	p	2026-09-01	fails_gatekeeper_check
 pomotroid	p	2026-09-01	fails_gatekeeper_check
-popmaker	p	2025-10-14	discontinued
 postbird	p	2026-09-01	fails_gatekeeper_check
 postman@canary	p	2025-11-15	no_longer_available
 powder	p	2026-09-01	fails_gatekeeper_check
@@ -653,7 +623,6 @@ procexp	p	2026-09-01	fails_gatekeeper_check
 profilecreator	p	2026-09-01	fails_gatekeeper_check
 pronterface	p	2026-09-01	fails_gatekeeper_check
 protege	p	2026-09-01	fails_gatekeeper_check
-provisioning	p	2025-10-13	unmaintained
 prowlarr	p	2026-09-01	fails_gatekeeper_check
 psi	p	2026-09-01	fails_gatekeeper_check
 psi-plus	p	2026-09-01	fails_gatekeeper_check
@@ -713,6 +682,7 @@ react-proto	r	2026-09-01	fails_gatekeeper_check
 react-studio	r	2026-07-24	unmaintained
 realforce	r	2026-05-28	unreachable
 receiptquicklook	r	2026-09-27	no_longer_meets_criteria
+receipts	r	2026-10-14	discontinued
 redeclipse	r	2026-09-01	fails_gatekeeper_check
 redis-pro	r	2026-09-01	fails_gatekeeper_check
 redquits	r	2026-09-01	fails_gatekeeper_check
@@ -750,7 +720,6 @@ servo	s	2026-09-01	fails_gatekeeper_check
 servpane	s	2026-01-05	unmaintained
 shadowsocksx-ng	s	2026-09-01	fails_gatekeeper_check
 shiba	s	2025-11-16	unmaintained
-shiori	s	2025-10-12	unmaintained
 sigdigger	s	2026-09-01	fails_gatekeeper_check
 silicon-info	s	2026-09-01	fails_gatekeeper_check
 simpleclock	s	2026-10-12	fails_gatekeeper_check
@@ -758,7 +727,6 @@ simply-fortran	s	2026-09-01	fails_gatekeeper_check
 simsim	s	2026-09-01	fails_gatekeeper_check
 singularity	s	2026-09-01	fails_gatekeeper_check
 sioyek	s	2026-09-01	fails_gatekeeper_check
-sketch-toolbox	s	2025-10-12	discontinued
 skychart	s	2026-09-01	fails_gatekeeper_check
 skyfonts	s	2025-11-02	discontinued
 skype	s	2026-05-09	discontinued
@@ -780,9 +748,7 @@ spaceradar	s	2026-09-01	fails_gatekeeper_check
 spacesaver	s	2026-04-05	no_longer_meets_criteria
 spark-ar-studio	s	2025-12-01	discontinued
 sparkle	s	2026-09-01	fails_gatekeeper_check
-sparkleshare	s	2025-10-14	discontinued
 speedcrunch	s	2025-10-29	unmaintained
-spillo	s	2025-10-14	unmaintained
 splitshow	s	2025-11-16	unmaintained
 spotify4bigsur	s	2026-09-01	fails_gatekeeper_check
 sql-tabs	s	2026-09-07	unmaintained
@@ -806,7 +772,6 @@ supermjograph	s	2026-09-01	fails_gatekeeper_check
 superslicer	s	2026-09-01	fails_gatekeeper_check
 surfeasy-vpn	s	2026-01-05	discontinued
 surge-synthesizer	s	2026-03-02	discontinued
-swiftybeaver	s	2025-10-12	unmaintained
 swimat	s	2026-09-01	fails_gatekeeper_check
 switchkey	s	2026-09-01	fails_gatekeeper_check
 syncalicious	s	2026-04-30	unmaintained
@@ -850,7 +815,6 @@ tigerjython	t	2026-10-12	fails_gatekeeper_check
 tikzit	t	2026-09-01	fails_gatekeeper_check
 timche-gmail-desktop	t	2026-05-09	discontinued
 time-to-leave	t	2026-09-01	fails_gatekeeper_check
-time-tracker	t	2025-10-14	unmaintained
 timelapze	t	2026-09-01	fails_gatekeeper_check
 timer	t	2025-10-27	unmaintained
 tinypng4mac	t	2026-09-01	fails_gatekeeper_check
@@ -867,7 +831,6 @@ topaz-video-ai	t	2026-09-27	discontinued
 toptracker	t	2026-04-01	unmaintained
 torrent-file-editor	t	2026-09-01	fails_gatekeeper_check
 tortoisehg	t	2026-09-01	fails_gatekeeper_check
-touchbarserver	t	2025-10-12	unmaintained
 townwifi	t	2025-11-03	unmaintained
 trackerzapper	t	2026-09-01	fails_gatekeeper_check
 transmission-remote-gui	t	2026-09-01	fails_gatekeeper_check
@@ -891,7 +854,6 @@ ultimate	u	2026-09-01	fails_gatekeeper_check
 ultimate-control	u	2025-11-01	unmaintained
 ultimate-vocal-remover	u	2026-09-01	fails_gatekeeper_check
 ultrastardeluxe	u	2026-09-01	fails_gatekeeper_check
-uncolored	u	2025-10-12	unmaintained
 unetbootin	u	2026-09-01	fails_gatekeeper_check
 unexpectedly	u	2025-12-23	no_longer_meets_criteria
 unison-app	u	2026-09-01	fails_gatekeeper_check
@@ -978,7 +940,6 @@ xld	x	2026-09-01	fails_gatekeeper_check
 xonotic	x	2026-10-12	fails_gatekeeper_check
 xournal++	x	2026-09-01	fails_gatekeeper_check
 xpra	x	2026-09-01	fails_gatekeeper_check
-yemuzip	y	2025-10-12	unmaintained
 yesplaymusic	y	2026-09-01	fails_gatekeeper_check
 yggdrasil	y	2026-09-01	fails_gatekeeper_check
 yippy	y	2026-09-01	fails_gatekeeper_check
