@@ -43,6 +43,7 @@ apple-juice	a	2026-09-01	fails_gatekeeper_check
 apptivate	a	2025-12-23	no_longer_meets_criteria
 apptrap	a	2025-11-02	unmaintained
 aqua-app	a	2026-08-20	discontinued
+arc	a	2026-12-22	discontinued
 archi	a	2025-11-18	
 archy	a	2026-09-01	fails_gatekeeper_check
 arctype	a	2025-11-30	discontinued
@@ -318,7 +319,6 @@ google-chat	g	2026-01-23	discontinued
 google-trends	g	2026-10-12	fails_gatekeeper_check
 gpodder	g	2026-09-01	fails_gatekeeper_check
 gpxsee	g	2026-09-01	fails_gatekeeper_check
-graalvm-jdk@17	g	2025-10-20	no_longer_meets_criteria
 grads	g	2025-11-30	no_longer_available
 grafx	g	2026-09-01	fails_gatekeeper_check
 grid-clock	g	2026-10-12	fails_gatekeeper_check
