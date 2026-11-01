@@ -12,5 +12,5 @@ cask "qlstephen" do
 
   qlplugin "QLStephen.qlgenerator"
 
-  # No zap stanza required
+  zap :not_required
 end

@@ -19,5 +19,5 @@ cask "starsector" do
 
   app "Starsector.app"
 
-  # No zap stanza required
+  zap :not_required
 end

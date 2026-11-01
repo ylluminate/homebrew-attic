@@ -18,5 +18,5 @@ cask "obs-backgroundremoval" do
             delete:  "~/Library/Application Support/obs-studio/plugins/obs-backgroundremoval.plugin",
             rmdir:   "~/Library/Application Support/obs-studio/plugins"
 
-  # No zap stanza required
+  zap :not_required
 end

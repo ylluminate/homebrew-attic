@@ -15,5 +15,5 @@ cask "ultimate-vocal-remover" do
 
   app "Ultimate Vocal Remover.app"
 
-  # No zap stanza required
+  zap :not_required
 end

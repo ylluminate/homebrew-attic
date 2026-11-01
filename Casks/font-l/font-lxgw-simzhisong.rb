@@ -11,5 +11,5 @@ cask "font-lxgw-simzhisong" do
 
   font "SimZhiSong.ttf"
 
-  # No zap stanza required
+  zap :not_required
 end

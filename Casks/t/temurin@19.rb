@@ -17,5 +17,5 @@ cask "temurin@19" do
 
   uninstall pkgutil: "net.temurin.19.jdk"
 
-  # No zap stanza required
+  zap :not_required
 end

@@ -12,5 +12,5 @@ cask "gltfquicklook" do
 
   qlplugin "GLTFQuickLook.qlgenerator"
 
-  # No zap stanza required
+  zap :not_required
 end

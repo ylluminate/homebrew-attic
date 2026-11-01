@@ -12,5 +12,5 @@ cask "inloop-qlplayground" do
 
   qlplugin "inloop-qlplayground.qlgenerator"
 
-  # No zap stanza required
+  zap :not_required
 end

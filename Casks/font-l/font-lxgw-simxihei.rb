@@ -11,5 +11,5 @@ cask "font-lxgw-simxihei" do
 
   font "SimXiHei.ttf"
 
-  # No zap stanza required
+  zap :not_required
 end

@@ -17,5 +17,5 @@ cask "plotdigitizer" do
 
   app "Plot Digitizer.app"
 
-  # No zap stanza required
+  zap :not_required
 end

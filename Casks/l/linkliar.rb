@@ -27,5 +27,5 @@ cask "linkliar" do
               "/Library/Application Support/LinkLiar",
             ]
 
-  # No zap stanza required
+  zap :not_required
 end

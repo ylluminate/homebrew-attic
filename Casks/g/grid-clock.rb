@@ -11,5 +11,5 @@ cask "grid-clock" do
 
   screen_saver "Grid Clock.saver"
 
-  # No zap stanza required
+  zap :not_required
 end

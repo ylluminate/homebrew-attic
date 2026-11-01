@@ -20,5 +20,5 @@ cask "cljstyle" do
 
   binary "cljstyle"
 
-  # No zap stanza required
+  zap :not_required
 end

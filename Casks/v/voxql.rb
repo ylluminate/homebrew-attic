@@ -12,5 +12,5 @@ cask "voxql" do
 
   qlplugin "VoxQL.qlgenerator"
 
-  # No zap stanza required
+  zap :not_required
 end

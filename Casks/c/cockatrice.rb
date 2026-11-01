@@ -15,7 +15,7 @@ cask "cockatrice" do
     end
   end
   on_ventura :or_newer do
-    version "3.1.1,2026-10-10,Reality-Check,3.1.1"
+    version "3.1.2,2026-10-25,Reality-Check,3.1.2"
 
     on_ventura do
       sha256 "4137a2021c97ef47f514b44898bc3897c1448698962dcad1f4d8482632e57bb8"
@@ -32,7 +32,7 @@ cask "cockatrice" do
       url "https://github.com/Cockatrice/Cockatrice/releases/download/#{version.csv.second}-Release-#{version.csv.first}/Cockatrice-#{version.csv.third}-#{version.csv.fourth}-macOS14.dmg"
     end
     on_sequoia :or_newer do
-      sha256 "b7460d315d28c533670db41341b367c3900b33368d80ff1cc887d308c37076f7"
+      sha256 "4b23a124f900cf9772ce342095cb8b5538ada1343d59a56dc262b6ff543b51b9"
 
       url "https://github.com/Cockatrice/Cockatrice/releases/download/#{version.csv.second}-Release-#{version.csv.first}/Cockatrice-#{version.csv.third}-#{version.csv.fourth}-macOS15.dmg"
     end
@@ -69,6 +69,7 @@ cask "cockatrice" do
 
   zap trash: [
     "~/Library/Application Support/Cockatrice",
+    "~/Library/Caches/Cockatrice",
     "~/Library/Preferences/com.cockatrice.Cockatrice.plist",
     "~/Library/Preferences/com.cockatrice.oracle.plist",
     "~/Library/Preferences/de.cockatrice.Cockatrice.plist",

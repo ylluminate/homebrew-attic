@@ -12,5 +12,5 @@ cask "quickgeojson" do
 
   qlplugin "quickgeojson.qlgenerator"
 
-  # No zap stanza required
+  zap :not_required
 end

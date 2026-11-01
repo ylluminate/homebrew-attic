@@ -13,5 +13,5 @@ cask "terminology" do
 
   dictionary "Terminology-for-OS-X/Terminology.dictionary"
 
-  # No zap stanza required
+  zap :not_required
 end

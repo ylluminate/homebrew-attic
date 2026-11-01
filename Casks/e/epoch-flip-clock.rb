@@ -12,5 +12,5 @@ cask "epoch-flip-clock" do
 
   screen_saver "Epoch Flip Clock.saver"
 
-  # No zap stanza required
+  zap :not_required
 end

@@ -12,5 +12,5 @@ cask "qlmobi" do
 
   qlplugin "QLMobi.qlgenerator"
 
-  # No zap stanza required
+  zap :not_required
 end

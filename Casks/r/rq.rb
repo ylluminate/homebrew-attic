@@ -17,7 +17,7 @@ cask "rq" do
 
   binary "rq"
 
-  # No zap stanza required
+  zap :not_required
 
   caveats do
     requires_rosetta

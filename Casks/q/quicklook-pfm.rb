@@ -12,5 +12,5 @@ cask "quicklook-pfm" do
 
   qlplugin "Quicklook-PFM.qlgenerator"
 
-  # No zap stanza required
+  zap :not_required
 end

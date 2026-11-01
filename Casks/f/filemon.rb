@@ -17,5 +17,5 @@ cask "filemon" do
 
   binary "filemon"
 
-  # No zap stanza required
+  zap :not_required
 end

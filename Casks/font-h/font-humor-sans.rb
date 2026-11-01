@@ -10,5 +10,5 @@ cask "font-humor-sans" do
 
   font "Humor-Sans-#{version}.ttf"
 
-  # No zap stanza required
+  zap :not_required
 end

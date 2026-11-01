@@ -12,5 +12,5 @@ cask "simpleclock" do
 
   screen_saver "SimpleClock.saver"
 
-  # No zap stanza required
+  zap :not_required
 end

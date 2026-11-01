@@ -17,7 +17,7 @@ cask "operadriver" do
 
   binary "operadriver_mac64/operadriver"
 
-  # No zap stanza required
+  zap :not_required
 
   caveats do
     requires_rosetta

@@ -62,5 +62,5 @@ cask "font-zed-sans" do
   font "zed-sans-thinitalic.ttf"
   font "zed-sans-thinoblique.ttf"
 
-  # No zap stanza required
+  zap :not_required
 end

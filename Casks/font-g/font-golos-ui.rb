@@ -10,5 +10,5 @@ cask "font-golos-ui" do
 
   font "PT/PT/Golos-UI/golos-ui_vf.ttf"
 
-  # No zap stanza required
+  zap :not_required
 end
