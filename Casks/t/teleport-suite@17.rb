@@ -16,10 +16,7 @@ cask "teleport-suite@17" do
 
   # Support window taken from https://goteleport.com/docs/upcoming-releases/
 
-  conflicts_with cask: [
-    "teleport-suite",
-    "tsh",
-  ]
+  conflicts_with cask: "teleport-suite"
   depends_on :macos
 
   pkg "teleport-#{version}.pkg"
